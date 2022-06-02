@@ -2,6 +2,10 @@
 
 This is a port of [xcode-one-dark](https://github.com/bojan/xcode-one-dark)
 
+## Screenshot
+
+![screenshot](.screenshots/screenshot.png)
+
 ## Installation
 
 ### Swift Package Manager (Easiest way - Recommended)
