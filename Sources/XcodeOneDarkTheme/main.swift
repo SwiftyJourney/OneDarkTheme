@@ -45,7 +45,7 @@ if !fontsFolder.containsFile(named: "FiraCode-Medium.ttf") || !fontsFolder.conta
 print("✅ Fira Code is installed!")
 print("🎨 Installing One Dark Theme for Xcode...")
 
-let themeURL = URL(fileURLWithPath: #file.replacingOccurrences(of: "Sources/XcodeTheme/main.swift", with: "One Dark.xccolortheme"))
+let themeURL = URL(fileURLWithPath: #file.replacingOccurrences(of: "Sources/XcodeOneDarkTheme/main.swift", with: "One Dark.xccolortheme"))
 let themeData = try Data(contentsOf: themeURL)
 
 let xcodeFolder = try Folder.home.subfolder(at: "Library/Developer/Xcode")
