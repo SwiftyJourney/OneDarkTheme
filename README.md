@@ -4,7 +4,7 @@ This is a port of [xcode-one-dark](https://github.com/bojan/xcode-one-dark)
 
 ## Installation
 
-### Swift Package Manager (Easiest way)
+### Swift Package Manager (Easiest way - Recommended)
 
 * Clone the repo
 * Execute `swift run`
@@ -35,8 +35,6 @@ rm -rf XcodeTheme
   * Close it if it was already opened then open it again.
 * Go to Preferences -> Themes
 * Select `One Dark` theme.
-
-Yeap! SPM was the easiest one 😝.
 
 ## Acknowledgment
 
