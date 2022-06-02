@@ -8,6 +8,8 @@ import ShellOut
 
 let fontsFolder = try Folder.home.subfolder(at: "Library/Fonts")
 
+print("👀 Checking for Fira Code fonts...")
+
 if !fontsFolder.containsFile(named: "FiraCode-Medium.ttf") || !fontsFolder.containsFile(named: "FiraCode-Retina.ttf") {
   print("⏬ Downloading Fira Code font...")
 
@@ -40,6 +42,7 @@ if !fontsFolder.containsFile(named: "FiraCode-Medium.ttf") || !fontsFolder.conta
   try fontZipFile.delete()
 }
 
+print("✅ Fira Code is installed!")
 print("🎨 Installing One Dark Theme for Xcode...")
 
 let themeURL = URL(fileURLWithPath: #file.replacingOccurrences(of: "Sources/XcodeTheme/main.swift", with: "One Dark.xccolortheme"))
