@@ -40,7 +40,7 @@ rm -rf XcodeTheme
 * Go to Preferences -> Themes
 * Select `One Dark` theme.
 
-## Acknowledgment
+## Attributions
 
 * [Bojan Dimovski](https://github.com/bojan), for making a nice theme accessible for the iOS community.
 * [John Sundell](https://github.com/JohnSundell), because thanks to his libraries and its own theme, made this great installation process easier.
