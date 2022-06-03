@@ -14,7 +14,7 @@ This is a port of [xcode-one-dark](https://github.com/bojan/xcode-one-dark)
 * Execute `swift run`
 
 ```bash
-git clone https://github.com/JohnSundell/XcodeTheme.git
+git clone https://github.com/SwiftyJourney/OneDarkTheme.git
 cd OneDarkTheme
 swift run
 ```
@@ -25,7 +25,7 @@ swift run
 
 ```bash
 cd ..
-rm -rf XcodeTheme
+rm -rf OneDarkTheme
 ```
 
 ### Manual
